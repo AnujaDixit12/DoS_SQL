@@ -1,8 +1,8 @@
 # DoS_SQL
-Project Overview
+#Project Overview
 This project is designed to simulate a comprehensive system for detecting, monitoring, and responding to Denial of Service (DoS) attacks. The system is built using MySQL databases to log real-time data on network traffic, system resources, attack incidents, and threat intelligence. The goal is to provide a centralized platform for monitoring DoS activity, generating alerts, and responding to incidents effectively.
 
-Databases and Tables
+#Databases and Tables
 The project includes five key databases, each containing multiple tables that focus on different aspects of detecting and responding to DoS attacks.
 
 1. Attack_Detection
@@ -45,12 +45,16 @@ patches: Records information about system patches.
 security_advisories: Stores security advisories from vendors.
 threat_intelligence: Tracks known threats and their severity.
 security_incidents: Logs related security incident details.
-Project Features
+
+
+#Project Features
 Real-time Attack Detection: Using MySQL tables to store real-time data on traffic and resource usage, the system can detect abnormal patterns associated with DoS attacks.
 Alerts and Notifications: Alerts are generated when a potential attack is detected based on predefined rules in the detection_rules table.
 Incident Response: The system includes response plans and teams, stored in the Incident_Response database, to handle detected incidents promptly.
 Threat Intelligence: Information on vulnerabilities and threat intelligence is logged for proactive security measures.
-Usage
+
+
+#Usage
 The system will monitor network traffic and system resource usage.
 When abnormal traffic is detected (e.g., SYN flood), it will log the attack in the Attack_Detection database.
 Administrators will receive alerts based on the severity of the attack.
