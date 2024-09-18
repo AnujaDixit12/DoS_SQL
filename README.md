@@ -48,6 +48,7 @@ security_incidents: Logs related security incident details.
 
 
 #Project Features
+
 Real-time Attack Detection: Using MySQL tables to store real-time data on traffic and resource usage, the system can detect abnormal patterns associated with DoS attacks.
 Alerts and Notifications: Alerts are generated when a potential attack is detected based on predefined rules in the detection_rules table.
 Incident Response: The system includes response plans and teams, stored in the Incident_Response database, to handle detected incidents promptly.
@@ -55,6 +56,7 @@ Threat Intelligence: Information on vulnerabilities and threat intelligence is l
 
 
 #Usage
+
 The system will monitor network traffic and system resource usage.
 When abnormal traffic is detected (e.g., SYN flood), it will log the attack in the Attack_Detection database.
 Administrators will receive alerts based on the severity of the attack.
